@@ -13,3 +13,5 @@ Check out the online demos with:
 
 ## 3D-Models on Marker
 Sketchfab publishes 3D-Models as creative commons. One the CC-BY-4.0 models a dinosaur (Spinosaurus) is used as a 3D model on a marker. The model is called "[primal carnage spinosaurus](https://skfb.ly/pswyN))" (URL: https://skfb.ly/pswyN) created by `seth the yutyrannus`. The 3D model is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/). See [Spinosaurus on AR-Marker](https://niebert.github.io/AR-Examples/spinosaurus_hiro_ar.html)
+
+![Spinosaurus on AR-Marker](./img/spinosaurus_on_ar_marker.png)
