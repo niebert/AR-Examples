@@ -1,29 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Spinosaurus - Rieselfelder - Aframe 3D</title>
-  <script src="js/aframe.min.js"></script>
-  <script src="js/aframe-ar.js"> </script>
-  <script>
-    var vNextURL = "globe-multi-marker.html";
-    var vMarker = "cube";
-    //setTimeout("window.location.href='a_marker.html?nexturl="+vNextURL+"&marker="+vMarker+"'",28000);
-  // setTimeout("window.location.href='a_marker.html?nexturl="+vNextURL+"&marker="+vMarker+"'",8000);
-  </script>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/jeromeetienne/AR.js@2.2.2/aframe/build/aframe-ar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aframe-gltf-model-plus@0.0.5/dist/aframe-gltf-model-plus.min.js"></script>
 </head>
 <body>
-  <a-scene embedded arjs>
-        <a-marker preset="hiro">
-            <a-entity gltf-model="url(model3d/primal_carnage_spinosaurus_small.glb)" scale="0.5 0.5 0.5"  ></a-entity>
+    <a-scene vr-mode-ui="enabled: false" embedded arjs="sourceType: webcam; debugUIEnabled: false;">
+        <a-marker type="pattern" url="pattern-yourmarker.patt">
+            <a-entity rotation="0 0 0" position="0 0 0">
+                <a-gltf-model position="0 0 0" src="./model3d/primal_carnage_spinosaurus_small.glb"></a-gltf-model>
+            </a-entity>
         </a-marker>
-        <a-light type="ambient" color="#FFF" light=""></a-light>
-        <a-light type="point" color="#fff" position="0 2 0" light=""></a-light>
-        <a-light type="point" color="#fff" position="1 2 0" light=""></a-light>
-
         <a-entity camera></a-entity>
     </a-scene>
-  <a-scene>
 </body>
 </html>
