@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spinosaurus - HIRO - AR.js</title>
+  <script src="js/aframe4dino.min.js"></script>
+  <script src="js/aframe-ar.js"> </script>
+  <script>
+    var vNextURL = "globe-multi-marker.html";
+    var vMarker = "cube";
+    //setTimeout("window.location.href='a_marker.html?nexturl="+vNextURL+"&marker="+vMarker+"'",28000);
+  // setTimeout("window.location.href='a_marker.html?nexturl="+vNextURL+"&marker="+vMarker+"'",8000);
+  </script>
+</head>
+<body>
+  <a-scene embedded arjs>
+        <a-marker preset="hiro">
+            <a-entity gltf-model="url(model3d/primal_carnage_spinosaurus_small.glb)" scale="0.5 0.5 0.5" rotation="0 90 0" ></a-entity>
+        </a-marker>
+        <a-light type="ambient" color="#FFF" light=""></a-light>
+        <a-light type="point" color="#fff" position="0 2 0" light=""></a-light>
+        <a-light type="point" color="#fff" position="1 2 0" light=""></a-light>
+
+        <a-entity camera></a-entity>
+    </a-scene>
+  <a-scene>
+</body>
+</html>
