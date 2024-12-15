@@ -10,3 +10,6 @@ Check out the online demos with:
 ## [Online-Demo](https://niebert.github.io/AR-Examples)
 * [Download ZIP-file](https://github.com/niebert/AR-Examples/archive/refs/heads/master.zip) of this repository
 * see also [Wikiversity learning resource about 3D-modelling](https://en.wikiversity.org/wiki/3D_Modelling/Examples/AR_with_Markers)
+
+## 3D-Models on Marker
+Sketchfab publishes 3D-Models as creative commons. One the CC-BY-4.0 models a dinosaur (Spinosaurus) is used as a 3D model on a marker. The model is called "[primal carnage spinosaurus](https://skfb.ly/pswyN))" (URL: https://skfb.ly/pswyN) created by `seth the yutyrannus`. The 3D model is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/). See [Spinosaurus on AR-Marker](https://niebert.github.io/AR-Examples/spinosaurus_hiro_ar.html)
