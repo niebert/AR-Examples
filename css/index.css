@@ -37,6 +37,21 @@ body
 	-webkit-border-radius: 15px 15px 15px 15px;
 	border-radius: 15px 15px 15px 15px;
 }
+.link4text {
+	font-size: 16px;
+	font-weight: bold;
+	font-variantx: small-caps;
+	color:#00c;
+	text-shadow: 1px 1px 0px #aaa;
+	margin: 13px 0px 0px 0px;
+	text-decoration: none;
+	
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out; 
+}
 
 /* Page text links */
 a 
