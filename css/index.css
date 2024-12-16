@@ -39,7 +39,7 @@ body
 }
 .link4text {
 	font-size: 16px;
-	font-weight: bold;
+	font-weight: normal;
 	font-variantx: small-caps;
 	color:#00c;
 	text-shadow: 1px 1px 0px #aaa;
