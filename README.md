@@ -12,6 +12,10 @@ Check out the online demos with:
 * see also [Wikiversity learning resource about 3D-modelling](https://en.wikiversity.org/wiki/3D_Modelling/Examples/AR_with_Markers)
 
 ## 3D-Models on Marker
-Sketchfab publishes 3D-Models as creative commons. One the CC-BY-4.0 models a dinosaur (Spinosaurus) is used as a 3D model on a marker. The model is called "[primal carnage spinosaurus](https://skfb.ly/pswyN))" (URL: https://skfb.ly/pswyN) created by `seth the yutyrannus`. The 3D model is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/). See [Spinosaurus on AR-Marker](https://niebert.github.io/AR-Examples/spinosaurus_hiro_ar.html). File: [GLB-Spinosaurus](model3d/primal_carnage_spinosaurus_small.glb)
+Sketchfab publishes 3D-Models as creative commons. One the CC-BY-4.0 models a dinosaur (Spinosaurus) is used as a 3D model on a marker. The model is called 
+* "[primal carnage spinosaurus](https://skfb.ly/pswyN))" (URL: https://skfb.ly/pswyN) created by `seth the yutyrannus`.
+* The 3D model is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+* See [Spinosaurus on AR-Marker](https://niebert.github.io/AR-Examples/spinosaurus_hiro_ar.html).
+* GLB-File: [model3d/primal_carnage_spinosaurus_small.glb](model3d/primal_carnage_spinosaurus_small.glb)
 
 ![Spinosaurus on AR-Marker](./img/spinosaurus_on_ar_marker.png)
