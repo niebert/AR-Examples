@@ -17,11 +17,10 @@ Sketchfab publishes 3D-Models as creative commons. One the CC-BY-4.0 models a di
 * The 3D model is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 * ***Web-Demo:*** [Spinosaurus on AR-Marker](https://niebert.github.io/AR-Examples/spinosaurus_hiro_ar.html).
 * GLB-File: [model3d/primal_carnage_spinosaurus_small.glb](model3d/primal_carnage_spinosaurus_small.glb)
-
 ![Spinosaurus on AR-Marker](./img/spinosaurus_on_ar_marker.png)
 
 * Use Hiro-Marker as print out
 * Start [Web-Demo - Spinosaurus on AR-Marker - "Hiro"](https://niebert.github.io/AR-Examples/spinosaurus_hiro_ar.html)
 * Allow camera to record Hiro-Marker in Webcam.
 * Dinosaur will be placed on Hiro-Marker in Cameraimage
-![Hiro-Marker](./marker/hiro.png)
+![Hiro-Marker](./markers/hiro.png)
