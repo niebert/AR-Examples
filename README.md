@@ -20,9 +20,11 @@ Sketchfab publishes 3D-Models as creative commons. One the CC-BY-4.0 models a di
 * GLB-File: [model3d/primal_carnage_spinosaurus_small.glb](model3d/primal_carnage_spinosaurus_small.glb)
 ![Spinosaurus on AR-Marker](./img/spinosaurus_on_ar_marker.png)
 
-* Use Hiro-Marker as print out
-* Start [Web-Demo - Spinosaurus on AR-Marker - "Hiro"](https://niebert.github.io/AR-Examples/spinosaurus_hiro_ar.html)
-* Allow camera to record Hiro-Marker in Webcam.
-* Dinosaur will be placed on Hiro-Marker in Cameraimage
+* **(Print Marker)** Use Hiro-Marker as print out
+* **(Display 3D Model in Browser)** Start [Web-Demo - Spinosaurus on AR-Marker - "Hiro"](https://niebert.github.io/AR-Examples/spinosaurus_hiro_ar.html)
+* **(Marker in Camera Viewport)** Allow camera to record Hiro-Marker in Webcam.
+* **(3D Model in Webpage displayed on Marker)** Dinosaur will be placed on Hiro-Marker in camera image.
+* **(Coordinate System)** Hiro marker (and any other marker) defines in the asymmetric shape a coordinate system in which the objects are placed.
+* **(Scaling of Object - Marker Size)** The size of the Hiro marker defines the unit length in the coordinate system. E.g. triple size of printed Hiro marker scales the objects by the factor 3.
   
 ![Hiro-Marker](./markers/hiro.png)
